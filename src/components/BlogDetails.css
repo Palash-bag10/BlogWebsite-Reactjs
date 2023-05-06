@@ -1,0 +1,16 @@
+.blog__card{
+    transition: all 0.3s ease-in;
+    border-radius: 5px;
+}
+
+.blog__card:hover{
+    scale: 1.02;
+    box-shadow: 3px 3px 0px #000;
+
+    .blog__title,
+    .blog__category,
+    .blog__tag{
+        color: #FE7E6D;
+    }
+}
+

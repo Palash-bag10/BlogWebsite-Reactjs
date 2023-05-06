@@ -1,0 +1,8 @@
+.pagination__button{
+    /* transition-property: box-shadow; */
+    transition: box-shadow 0.1s ease-in;
+}
+
+.pagination__button:hover{
+    box-shadow: 3px 3px 0px #000;
+}
